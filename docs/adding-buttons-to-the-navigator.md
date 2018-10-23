@@ -63,7 +63,7 @@ class FirstTabScreen extends Component {
     disableIconTint: true, // optional, by default the image colors are overridden and tinted to navBarButtonColor, set to true to keep the original image colors
     buttonColor: 'blue', // Set color for the button (can also be used in setButtons function to set different button style programatically)
     buttonFontSize: 14, // Set font size for the button (can also be used in setButtons function to set different button style programatically)
-    buttonFontWeight: '600' // Set font weight for the button (can also be used in setButtons function to set different button style programatically)
+    buttonFontWeight: '600', // Set font weight for the button (can also be used in setButtons function to set different button style programatically)
     systemItem: 'compose', // Optional, iOS only. Set a system bar button item as the icon. Matches UIBarButtonSystemItem naming.
   }],
   leftButtons: [] // buttons for the left side of the nav bar (optional)
